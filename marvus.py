@@ -26,7 +26,9 @@ __CONTACT__ = 'fb.com/PhDinhQuoc '
 
 
 def jovan():
-         print("""   
+         print("""
+
+         
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡CODED IN PYTHON≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 OWNER    :: JUDE
 CODED IN :: PYTHON 
@@ -4001,10 +4003,7 @@ def display_menu():
     data = load_data()
     total_accounts, total_pages = count_accounts_and_pages(data)
     print(f"""\
-                TOOL OVERVIEW
-          
               \033[1;31mFRA ACCOUNTS\033[1;37m  :\033[1;32m {total_accounts} \033[1;32m
-
               \033[1;31mFRA PAGES    \033[1;37m :\033[1;32m {total_pages}\033[1;32m""")
 
 
